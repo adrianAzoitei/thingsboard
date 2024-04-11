@@ -85,9 +85,9 @@
         <lombok.version>1.18.26</lombok.version>
         <paho.client.version>1.2.4</paho.client.version>
         <paho.mqttv5.client.version>1.2.5</paho.mqttv5.client.version>
-        <netty.version>4.1.93.Final</netty.version>
+        <netty.version>4.1.108.Final</netty.version>
         <netty-tcnative.version>2.0.61.Final</netty-tcnative.version>
-        <reactor-netty.version>1.1.7</reactor-netty.version>
+        <reactor-netty.version>1.1.18</reactor-netty.version>
         <os-maven-plugin.version>1.7.0</os-maven-plugin.version>
         <rabbitmq.version>4.8.0</rabbitmq.version>
         <surefire.version>3.0.0-M9</surefire.version>
