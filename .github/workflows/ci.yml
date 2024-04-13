@@ -2,7 +2,7 @@ name: "CI/CD"
 
 on:
   push:
-    branches: [ "playground" ]
+    branches: [ "playground", "test-upstream" ]
 
 jobs:
   ci:
