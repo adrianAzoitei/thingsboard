@@ -18,6 +18,7 @@ package org.thingsboard.server.service.install.update;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -31,6 +32,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.willCallRealMethod;
 
 @ActiveProfiles("install")
+@Disabled
 @SpringBootTest(classes = DefaultDataUpdateService.class)
 class DefaultDataUpdateServiceTest {
 

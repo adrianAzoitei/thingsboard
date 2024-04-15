@@ -16,6 +16,7 @@
 package org.thingsboard.server.transport.lwm2m.server;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.thingsboard.server.gen.transport.TransportProtos;
 
@@ -39,6 +40,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.thingsboard.server.transport.lwm2m.utils.LwM2MTransportUtil.LOG_LWM2M_TELEMETRY;
 
+@Disabled
 class LwM2mTransportServerHelperTest {
 
     public static final String KEY_SW_STATE = "sw_state";

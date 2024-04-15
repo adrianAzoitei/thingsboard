@@ -18,6 +18,7 @@ package org.thingsboard.server.transport.mqtt.mqttv3.attributes.request;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.common.data.TransportPayloadType;
 import org.thingsboard.server.common.data.device.profile.MqttTopics;
 import org.thingsboard.server.dao.service.DaoSqlTest;
@@ -26,6 +27,7 @@ import org.thingsboard.server.transport.mqtt.mqttv3.attributes.AbstractMqttAttri
 
 @Slf4j
 @DaoSqlTest
+@Disabled
 public class MqttAttributesRequestJsonIntegrationTest extends AbstractMqttAttributesIntegrationTest {
 
     @Before

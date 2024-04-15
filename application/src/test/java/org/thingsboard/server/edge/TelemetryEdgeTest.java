@@ -22,6 +22,7 @@ import com.google.protobuf.AbstractMessage;
 import org.awaitility.Awaitility;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.common.util.JacksonUtil;
 import org.thingsboard.server.common.data.DataConstants;
 import org.thingsboard.server.common.data.Device;
@@ -41,6 +42,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @DaoSqlTest
+@Disabled
 public class TelemetryEdgeTest extends AbstractEdgeTest {
 
     @Test

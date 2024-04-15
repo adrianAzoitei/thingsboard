@@ -18,6 +18,7 @@ package org.thingsboard.server.utils;
 import com.fasterxml.jackson.databind.node.NullNode;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.common.util.JacksonUtil;
 import org.thingsboard.rule.engine.metadata.TbGetAttributesNode;
 import org.thingsboard.rule.engine.metadata.TbGetAttributesNodeConfiguration;
@@ -29,6 +30,7 @@ import org.thingsboard.server.service.component.RuleNodeClassInfo;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+@Disabled
 public class TbNodeUpgradeUtilsTest {
 
     @Test

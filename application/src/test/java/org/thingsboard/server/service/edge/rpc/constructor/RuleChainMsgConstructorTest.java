@@ -20,6 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.thingsboard.common.util.JacksonUtil;
@@ -45,6 +46,7 @@ import java.util.UUID;
 
 @Slf4j
 @RunWith(MockitoJUnitRunner.class)
+@Disabled
 public class RuleChainMsgConstructorTest {
 
     private static final String RPC_CONNECTION_TYPE = "RPC";

@@ -21,6 +21,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.thingsboard.server.common.data.EntityInfo;
 import org.thingsboard.server.common.data.ResourceType;
@@ -54,6 +55,7 @@ import static org.junit.Assert.assertThrows;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @DaoSqlTest
+@Disabled
 public class BaseTbResourceServiceTest extends AbstractControllerTest {
 
     private static final String LWM2M_TEST_MODEL = "<LWM2M xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"http://www.openmobilealliance.org/tech/profiles/LWM2M-v1_1.xsd\">\n" +

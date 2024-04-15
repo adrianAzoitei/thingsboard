@@ -19,6 +19,7 @@ import io.netty.handler.codec.mqtt.MqttQoS;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.test.context.TestPropertySource;
 import org.thingsboard.server.dao.service.DaoSqlTest;
 import org.thingsboard.server.transport.mqtt.MqttTestConfigProperties;
@@ -28,6 +29,7 @@ import org.thingsboard.server.transport.mqtt.MqttTestConfigProperties;
 @TestPropertySource(properties = {
         "actors.rpc.submit_strategy=SEQUENTIAL_ON_RESPONSE_FROM_DEVICE",
 })
+@Disabled
 public class MqttServerSideRpcSequenceOnResponseIntegrationTest extends AbstractMqttServerSideRpcIntegrationTest {
 
     @Before

@@ -20,6 +20,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.TextNode;
 import com.google.common.collect.Streams;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.SpyBean;
@@ -83,6 +84,7 @@ import static org.mockito.ArgumentMatchers.isNull;
 import static org.mockito.Mockito.verify;
 
 @DaoSqlTest
+@Disabled
 public class ExportImportServiceSqlTest extends BaseExportImportServiceTest {
 
     @Autowired

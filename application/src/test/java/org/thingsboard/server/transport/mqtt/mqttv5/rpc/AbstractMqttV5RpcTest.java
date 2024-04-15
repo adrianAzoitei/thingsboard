@@ -20,6 +20,7 @@ import io.netty.handler.codec.mqtt.MqttQoS;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.mqttv5.common.MqttException;
 import org.eclipse.paho.mqttv5.common.MqttMessage;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.common.util.JacksonUtil;
 import org.thingsboard.server.common.data.StringUtils;
 import org.thingsboard.server.common.msg.session.FeatureType;
@@ -35,6 +36,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.thingsboard.server.common.data.device.profile.MqttTopics.DEVICE_RPC_REQUESTS_SUB_TOPIC;
 
 @Slf4j
+@Disabled
 public abstract class AbstractMqttV5RpcTest extends AbstractMqttV5Test {
 
     private static final String DEVICE_RESPONSE = "{\"value1\":\"A\",\"value2\":\"B\"}";

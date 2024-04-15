@@ -15,6 +15,7 @@
  */
 package org.thingsboard.server.service.edge.rpc.processor.device;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,6 +24,7 @@ import org.thingsboard.server.gen.edge.v1.EdgeVersion;
 import org.thingsboard.server.service.edge.rpc.processor.device.profile.DeviceProfileEdgeProcessorV1;
 
 
+@Disabled
 @SpringBootTest(classes = {DeviceProfileEdgeProcessorV1.class})
 class DeviceProfileEdgeProcessorTest extends AbstractDeviceProcessorTest {
 

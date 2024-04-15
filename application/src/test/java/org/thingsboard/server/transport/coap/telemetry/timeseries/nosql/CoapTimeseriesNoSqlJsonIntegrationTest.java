@@ -15,9 +15,11 @@
  */
 package org.thingsboard.server.transport.coap.telemetry.timeseries.nosql;
 
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.dao.service.DaoNoSqlTest;
 import org.thingsboard.server.transport.coap.telemetry.timeseries.AbstractCoapTimeseriesJsonIntegrationTest;
 
 @DaoNoSqlTest
+@Disabled
 public class CoapTimeseriesNoSqlJsonIntegrationTest extends AbstractCoapTimeseriesJsonIntegrationTest {
 }

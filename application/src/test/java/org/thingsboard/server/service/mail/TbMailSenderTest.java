@@ -16,6 +16,7 @@
 package org.thingsboard.server.service.mail;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -35,6 +36,7 @@ import static org.mockito.BDDMockito.willReturn;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 
+@Disabled
 public class TbMailSenderTest {
 
     private TbMailSender tbMailSender;

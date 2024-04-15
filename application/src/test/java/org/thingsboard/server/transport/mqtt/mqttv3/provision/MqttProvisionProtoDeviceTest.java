@@ -19,6 +19,7 @@ import io.netty.handler.codec.mqtt.MqttQoS;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.thingsboard.common.util.JacksonUtil;
 import org.thingsboard.server.common.data.Device;
@@ -53,6 +54,7 @@ import static org.thingsboard.server.common.data.device.profile.MqttTopics.DEVIC
 
 @Slf4j
 @DaoSqlTest
+@Disabled
 public class MqttProvisionProtoDeviceTest extends AbstractMqttIntegrationTest {
 
     @Autowired

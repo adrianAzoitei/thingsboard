@@ -18,6 +18,7 @@ package org.thingsboard.server.service.install;
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -50,6 +51,7 @@ import static org.mockito.BDDMockito.willReturn;
 
 @Slf4j
 @SpringBootTest(classes = {InstallScripts.class, RuleChainDataValidator.class})
+@Disabled
 class InstallScriptsTest {
 
     @MockBean

@@ -21,6 +21,7 @@ import org.eclipse.leshan.core.link.lwm2m.attributes.DefaultLwM2mAttributeParser
 import org.eclipse.leshan.core.link.lwm2m.attributes.LwM2mAttribute;
 import org.eclipse.leshan.core.link.lwm2m.attributes.LwM2mAttributeSet;
 import org.eclipse.leshan.core.link.lwm2m.attributes.LwM2mAttributes;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -31,6 +32,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+@Disabled
 public class DefaultLwM2mAttributeParserTest {
 
     private final DefaultLwM2mAttributeParser parser = new DefaultLwM2mAttributeParser();

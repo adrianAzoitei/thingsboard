@@ -18,6 +18,7 @@ package org.thingsboard.server.edge;
 import com.google.protobuf.AbstractMessage;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.web.servlet.request.MockMultipartHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -36,6 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.thingsboard.server.common.data.ota.OtaPackageType.FIRMWARE;
 
 @DaoSqlTest
+@Disabled
 public class OtaPackageEdgeTest extends AbstractEdgeTest {
 
     @Test

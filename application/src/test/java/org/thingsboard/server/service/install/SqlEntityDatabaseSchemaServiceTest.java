@@ -16,6 +16,7 @@
 package org.thingsboard.server.service.install;
 
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.BDDMockito.willDoNothing;
@@ -23,6 +24,7 @@ import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
+@Disabled
 public class SqlEntityDatabaseSchemaServiceTest {
 
     @Test

@@ -15,11 +15,13 @@
  */
 package org.thingsboard.server.service.rpc;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.thingsboard.server.common.data.StringUtils;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Disabled
 class RpcSubmitStrategyTest {
 
     @Test

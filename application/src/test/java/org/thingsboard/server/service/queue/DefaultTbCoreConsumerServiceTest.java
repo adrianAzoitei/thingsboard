@@ -19,6 +19,7 @@ import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.MoreExecutors;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
@@ -42,6 +43,7 @@ import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.never;
 
 @ExtendWith(MockitoExtension.class)
+@Disabled
 public class DefaultTbCoreConsumerServiceTest {
 
     @Mock

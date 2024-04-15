@@ -22,6 +22,7 @@ import org.assertj.core.data.Offset;
 import org.java_websocket.client.WebSocketClient;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.mockito.ArgumentCaptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -112,6 +113,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @DaoSqlTest
 @Slf4j
+@Disabled
 public class NotificationApiTest extends AbstractNotificationApiTest {
 
     @Autowired

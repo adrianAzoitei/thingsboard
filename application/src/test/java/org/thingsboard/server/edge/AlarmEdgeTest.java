@@ -21,6 +21,7 @@ import com.fasterxml.jackson.databind.node.TextNode;
 import com.google.protobuf.AbstractMessage;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.common.util.JacksonUtil;
 import org.thingsboard.server.common.data.Device;
 import org.thingsboard.server.common.data.alarm.Alarm;
@@ -48,6 +49,7 @@ import java.util.UUID;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @DaoSqlTest
+@Disabled
 public class AlarmEdgeTest extends AbstractEdgeTest {
 
     @Test

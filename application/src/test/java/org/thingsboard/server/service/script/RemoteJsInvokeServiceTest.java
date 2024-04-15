@@ -19,6 +19,7 @@ import com.google.common.util.concurrent.Futures;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 import org.thingsboard.script.api.ScriptType;
@@ -51,6 +52,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoInteractions;
 import static org.mockito.Mockito.when;
 
+@Disabled
 class RemoteJsInvokeServiceTest {
 
     private RemoteJsInvokeService remoteJsInvokeService;

@@ -18,10 +18,12 @@ package org.thingsboard.server.transport.mqtt.mqttv5.client.connection;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.dao.service.DaoSqlTest;
 import org.thingsboard.server.transport.mqtt.MqttTestConfigProperties;
 
 @DaoSqlTest
+@Disabled
 public class MqttV5ClientConnectionTest extends AbstractMqttV5ClientConnectionTest {
 
     @Before

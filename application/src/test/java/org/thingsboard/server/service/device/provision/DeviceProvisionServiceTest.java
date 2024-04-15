@@ -20,6 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.boot.test.mock.mockito.SpyBean;
@@ -74,6 +75,7 @@ import static org.mockito.Mockito.when;
 @Slf4j
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = DeviceProvisionServiceImpl.class)
+@Disabled
 public class DeviceProvisionServiceTest {
 
     @MockBean

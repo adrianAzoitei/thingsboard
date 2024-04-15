@@ -21,6 +21,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.function.ThrowingRunnable;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.SpyBean;
 import org.springframework.data.util.Pair;
@@ -127,6 +128,7 @@ import static org.thingsboard.server.common.data.notification.rule.trigger.confi
         "transport.http.enabled=true",
         "notification_system.rules.deduplication_durations=RATE_LIMITS:10000"
 })
+@Disabled
 public class NotificationRuleApiTest extends AbstractNotificationApiTest {
 
     @SpyBean

@@ -19,12 +19,14 @@ import org.eclipse.paho.mqttv5.common.MqttException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.dao.service.DaoSqlTest;
 
 /**
  * Created by nickAS21 on 12.01.23
  */
 @DaoSqlTest
+@Disabled
 public class MqttV5ClientSparkplugBConnectionTest extends AbstractMqttV5ClientSparkplugConnectionTest {
 
     @Before

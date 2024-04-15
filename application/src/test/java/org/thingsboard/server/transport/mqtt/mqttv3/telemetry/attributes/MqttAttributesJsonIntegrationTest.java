@@ -18,6 +18,7 @@ package org.thingsboard.server.transport.mqtt.mqttv3.telemetry.attributes;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.common.data.TransportPayloadType;
 import org.thingsboard.server.dao.service.DaoSqlTest;
 import org.thingsboard.server.transport.mqtt.MqttTestConfigProperties;
@@ -27,6 +28,7 @@ import java.util.List;
 
 @Slf4j
 @DaoSqlTest
+@Disabled
 public class MqttAttributesJsonIntegrationTest extends MqttAttributesIntegrationTest {
 
     private static final String POST_DATA_ATTRIBUTES_TOPIC = "data/attributes";

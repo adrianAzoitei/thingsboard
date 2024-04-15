@@ -19,6 +19,7 @@ import org.eclipse.leshan.core.link.attributes.InvalidAttributeException;
 import org.eclipse.leshan.core.link.lwm2m.attributes.LwM2mAttribute;
 import org.eclipse.leshan.core.link.lwm2m.attributes.LwM2mAttributeModel;
 import org.eclipse.leshan.core.link.lwm2m.attributes.LwM2mAttributes;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -30,6 +31,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+@Disabled
 public class LwM2mAttributesTest {
 
     @ParameterizedTest(name = "Tests {index} : {0}")

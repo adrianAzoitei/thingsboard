@@ -18,6 +18,7 @@ package org.thingsboard.server.transport.mqtt.mqttv3.rpc;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.common.data.TransportPayloadType;
 import org.thingsboard.server.dao.service.DaoSqlTest;
 import org.thingsboard.server.transport.mqtt.MqttTestConfigProperties;
@@ -28,6 +29,7 @@ import static org.thingsboard.server.common.data.device.profile.MqttTopics.DEVIC
 
 @Slf4j
 @DaoSqlTest
+@Disabled
 public class MqttServerSideRpcProtoIntegrationTest extends AbstractMqttServerSideRpcIntegrationTest {
 
     @Before

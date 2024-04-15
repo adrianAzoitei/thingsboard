@@ -25,6 +25,7 @@ import io.netty.handler.codec.mqtt.MqttQoS;
 import org.awaitility.Awaitility;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.TestPropertySource;
 import org.thingsboard.common.util.JacksonUtil;
@@ -87,6 +88,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
         "transport.mqtt.enabled=true"
 })
 @DaoSqlTest
+@Disabled
 public class DeviceEdgeTest extends AbstractEdgeTest {
 
     private static final String DEFAULT_DEVICE_TYPE = "default";

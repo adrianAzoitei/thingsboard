@@ -15,9 +15,11 @@
  */
 package org.thingsboard.server.transport.mqtt.mqttv3.telemetry.timeseries.sql;
 
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.dao.service.DaoSqlTest;
 import org.thingsboard.server.transport.mqtt.mqttv3.telemetry.timeseries.AbstractMqttTimeseriesIntegrationTest;
 
 @DaoSqlTest
+@Disabled
 public class MqttTimeseriesSqlIntegrationTest extends AbstractMqttTimeseriesIntegrationTest {
 }

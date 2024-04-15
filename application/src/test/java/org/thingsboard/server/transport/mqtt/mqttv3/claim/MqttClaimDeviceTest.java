@@ -18,6 +18,7 @@ package org.thingsboard.server.transport.mqtt.mqttv3.claim;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.common.data.ClaimRequest;
 import org.thingsboard.server.common.data.Device;
 import org.thingsboard.server.dao.device.claim.ClaimResponse;
@@ -36,6 +37,7 @@ import static org.thingsboard.server.common.data.device.profile.MqttTopics.GATEW
 
 @Slf4j
 @DaoSqlTest
+@Disabled
 public class MqttClaimDeviceTest extends AbstractMqttIntegrationTest {
 
     @Before

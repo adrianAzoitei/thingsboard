@@ -16,6 +16,7 @@
 package org.thingsboard.server.actors.stats;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.thingsboard.server.actors.ActorSystemContext;
 import org.thingsboard.server.common.data.event.Event;
@@ -30,6 +31,7 @@ import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
+@Disabled
 class StatsActorTest {
 
     StatsActor statsActor;

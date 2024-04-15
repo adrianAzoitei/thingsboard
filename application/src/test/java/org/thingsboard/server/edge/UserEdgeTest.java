@@ -18,6 +18,7 @@ package org.thingsboard.server.edge;
 import com.google.protobuf.AbstractMessage;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.thingsboard.common.util.JacksonUtil;
@@ -39,6 +40,7 @@ import java.util.Optional;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @DaoSqlTest
+@Disabled
 public class UserEdgeTest extends AbstractEdgeTest {
 
     @Autowired

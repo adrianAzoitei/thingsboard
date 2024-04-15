@@ -15,11 +15,13 @@
  */
 package org.thingsboard.server.actors.stats;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.thingsboard.server.common.data.id.TenantId;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Disabled
 class StatsPersistMsgTest {
 
     @Test

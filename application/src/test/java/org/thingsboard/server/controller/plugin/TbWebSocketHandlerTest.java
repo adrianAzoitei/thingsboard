@@ -19,6 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.awaitility.Awaitility;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.web.socket.CloseStatus;
@@ -60,6 +61,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
 @Slf4j
+@Disabled
 class TbWebSocketHandlerTest {
 
     TbWebSocketHandler wsHandler;

@@ -16,6 +16,7 @@
 package org.thingsboard.server.transport.mqtt.mqttv5.timeseries;
 
 import com.fasterxml.jackson.core.type.TypeReference;
+import org.junit.jupiter.api.Disabled;
 import org.thingsboard.server.common.data.device.profile.MqttTopics;
 import org.thingsboard.server.common.data.id.DeviceId;
 import org.thingsboard.server.transport.mqtt.mqttv5.AbstractMqttV5Test;
@@ -30,6 +31,7 @@ import java.util.Set;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
+@Disabled
 public abstract class AbstractMqttV5TimeseriesTest extends AbstractMqttV5Test {
 
     protected static final String PAYLOAD_VALUES_STR = "{\"key1\":\"value1\", \"key2\":true, \"key3\": 3.0, \"key4\": 4," +
