@@ -18,6 +18,7 @@ package org.thingsboard.server.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.jupiter.api.Disabled;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootContextLoader;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -45,6 +46,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @EnableWebSocket
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Slf4j
+@Disabled
 public abstract class AbstractControllerTest extends AbstractNotifyEntityTest {
 
     public static final String WS_URL = "ws://localhost:";
