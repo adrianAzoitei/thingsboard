@@ -29,4 +29,6 @@ jobs:
       run: mvn clean install -Dlicense.skip -DskipTests && mvn test --fae
     - name: Run Application tests
       if: always()
+      env:
+        JAVA_OPTS: "-Xms6144m -Xmx6144m -XX:NewSize=256m -XX:MaxNewSize=356m -XX:PermSize=256m -XX:MaxPermSize=356m"
       run: cd application && mvn test -Dlicense.skip --fae
